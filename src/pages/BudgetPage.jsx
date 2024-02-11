@@ -10,7 +10,7 @@ import BudgetItem from "../components/BudgetItem";
 import Table from "../components/Table";
 
 // helpers
-import { createExpense, deleteItem, getAllMatchingItems } from "../helpers";
+import { createExpense, deleteItem, getAllMatchingItems } from "..";
 
 // loader
 export async function budgetLoader({ params }) {

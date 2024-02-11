@@ -9,7 +9,7 @@ import {
   formatCurrency,
   formatDateToLocaleString,
   getAllMatchingItems,
-} from "../helpers";
+} from "..";
 
 const ExpenseItem = ({ expense, showBudget }) => {
   const fetcher = useFetcher();

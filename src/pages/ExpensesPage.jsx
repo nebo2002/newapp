@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import Table from "../components/Table";
 
 // helpers
-import { deleteItem, fetchData } from "../helpers";
+import { deleteItem, fetchData } from "..";
 
 // loader
 export async function expensesLoader() {

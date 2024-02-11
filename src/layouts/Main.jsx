@@ -8,7 +8,7 @@ import wave from "../assets/wave.svg";
 import Nav from "../components/Nav";
 
 //  helper functions
-import { fetchData } from "../helpers"
+import { fetchData } from ".."
 
 // loader
 export function mainLoader() {

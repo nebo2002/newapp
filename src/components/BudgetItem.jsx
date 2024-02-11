@@ -9,7 +9,7 @@ import {
   calculateSpentByBudget,
   formatCurrency,
   formatPercentage,
-} from "../helpers";
+} from "..";
 
 const BudgetItem = ({ budget, showDelete = false }) => {
   const { id, name, amount, color } = budget;

@@ -5,7 +5,7 @@ import { redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 
 // helpers
-import { deleteItem } from "../helpers";
+import { deleteItem } from "..";
 
 export async function logoutAction() {
   // delete the user

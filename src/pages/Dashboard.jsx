@@ -18,7 +18,7 @@ import {
   deleteItem,
   fetchData,
   waait,
-} from "../helpers";
+} from "..";
 
 // loader
 export function dashboardLoader() {
